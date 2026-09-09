@@ -2,7 +2,7 @@
 
 Engine de cena **determinístico e isomórfico** para os carrosséis 1080×1080.
 Substitui o pipeline antigo `HTML/CSS → Playwright → PNG` (ver RFC em
-`~/.claude/plans/atue-como-um-engenheiro-snazzy-sifakis.md`).
+`~/.codex/plans/atue-como-um-engenheiro-snazzy-sifakis.md`).
 
 ## Ideia central
 
@@ -25,7 +25,7 @@ mesma quebra de linha → mesma cena no browser e no server.
 
 | Arquivo | Papel |
 |---|---|
-| `brand-kit.ts` | `BrandKit` por tenant (tipografia/paleta/strings). `SEED_BRAND_KIT` = editorial JP.ASV. **Tokens não são hardcoded.** |
+| `brand-kit.ts` | `BrandKit` por tenant (tipografia/paleta/strings). `SEED_BRAND_KIT` = editorial HL. **Tokens não são hardcoded.** |
 | `tokens.ts` | `resolveTokens(kit)` → API por papel/cor que os templates consomem |
 | `scene.ts` | `SceneGraph` / `SceneNode` (rect, line, glyphrun, image) |
 | `doc.ts` | `DesignDocument`, `ContentText`, `OverrideMap`, `SlideImage` |

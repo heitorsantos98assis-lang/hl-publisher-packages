@@ -1,6 +1,6 @@
 /**
  * Brand Kit — style guide POR TENANT (RFC §13).
- * Os tokens NÃO são hardcoded no engine: vêm daqui. O kit editorial JP.ASV
+ * Os tokens NÃO são hardcoded no engine: vêm daqui. O kit editorial HL
  * é apenas o SEED default (extraído de backend/render/template-engine.css.ts).
  */
 
@@ -63,7 +63,7 @@ export interface BrandKit {
   brand: BrandStrings;
 }
 
-/** SEED — kit editorial JP.ASV / Claude Code BR. Default p/ novos tenants. */
+/** SEED — kit editorial HL Codex. Default p/ novos tenants. */
 export const SEED_BRAND_KIT: BrandKit = {
   id: 'seed-editorial',
   tenantId: 'seed',
@@ -93,8 +93,8 @@ export const SEED_BRAND_KIT: BrandKit = {
     termPillBorder: '#3A3631',
   },
   brand: {
-    handle: '@JP.ASV',
-    breadcrumb: 'CLAUDE CODE BR',
+    handle: '@HL',
+    breadcrumb: 'HL Codex',
     ctaKeyword: 'hoje',
     logoGlyph: '✻',
   },

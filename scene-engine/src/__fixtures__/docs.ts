@@ -11,7 +11,7 @@ export const EDITORIAL_DOC: DesignDocument = {
     slug: 'pis-cofins-no-sped',
     template: 'step',
     persona: 'contador',
-    labelTopoCapa: 'CLAUDE CODE BR',
+    labelTopoCapa: 'HL Codex',
     labelCapa: 'O ERRO DE R$ 30 MIL/ANO',
     hookCapa: 'Todo mês some dinheiro no <em>lugar errado</em>',
     slides: [
@@ -89,9 +89,9 @@ export const STRESS_DOC: DesignDocument = {
 export const COMPENDIUM_DOC: DesignDocument = {
   schemaVersion: 1,
   content: {
-    slug: 'compendium-claude-code',
+    slug: 'compendium-Codex-code',
     template: 'compendium',
-    labelCapa: 'CLAUDE CODE BR',
+    labelCapa: 'HL Codex',
     hookCapa: 'O jeito certo de <em>operar</em> a IA',
     slides: [
       {

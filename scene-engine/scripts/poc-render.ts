@@ -24,7 +24,7 @@ const doc: DesignDocument = {
     slug: 'pis-cofins-no-sped',
     template: 'step',
     persona: 'contador',
-    labelTopoCapa: 'CLAUDE CODE BR',
+    labelTopoCapa: 'HL Codex',
     labelCapa: 'O ERRO DE R$ 30 MIL/ANO',
     hookCapa: 'Todo mês some dinheiro no <em>lugar errado</em>',
     slides: [
